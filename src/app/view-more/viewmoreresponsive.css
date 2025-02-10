@@ -1,0 +1,606 @@
+@media only screen and (max-width:766px) {
+    .viewmore-container1-left {
+        width: 100%;
+        height: 375px;
+        background: #0E0A31;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 7px;
+        padding: 1em;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    .viewmore-container1-left .view-small-box1 h2 {
+        font-size: 14px;
+    }
+
+    .viewmore-container1-left .view-small-box1 button {
+        width: 69px;
+        height: 21px;
+        font-size: 12px;
+        font-family: "Nunito", serif;
+        border-radius: 11px;
+        border: 1px solid #29BCFA;
+        background-color: transparent;
+        color: #29BCFA;
+        cursor: pointer;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box {
+        gap: 0.3em;
+        width: 160px;
+    }
+
+    .viewmore-container1-left .view-small-box2>div {
+        width: 135px;
+        height: 135px;
+        overflow: hidden;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box div p {
+        font-size: 14px;
+        color: #b4abc8;
+        font-weight: normal;
+        text-align: center;
+        font-family: "Nunito", serif;
+        line-height: 24px;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box div h3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box div h4 {
+        font-size: 14px;
+        line-height: 36px;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box div h5 {
+        font-size: 13px;
+        color: #b4abc8;
+        font-weight: normal;
+        text-align: center;
+        font-family: "Nunito", serif;
+        margin-top: -0.5em;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box span {
+        width: 100%;
+        margin: 6px 0;
+        border: 1px solid #51109B;
+        outline: none;
+    }
+
+    /*  */
+
+    .viewmore-container1-left .view-small-box4 {
+        width: 102%;
+        height: 122px;
+        background: transparent linear-gradient(270deg, #9F62F221 0%, #9F62F221 28%, #5FEDFF00 100%);
+        border: 1px solid #474276;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        padding: 2em 10px;
+    }
+
+    .ticket-details-box {
+        width: 66%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0em;
+    }
+
+    .ticket-details-box>div {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .number-first-box div {
+        width: 44px;
+        height: 44px;
+        background: #957DB4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ticket-details-box>div div p {
+        font-size: 12px;
+        color: #F0E5FF;
+        line-height: 24px;
+        font-family: "Nunito", serif;
+    }
+
+    .ticket-details-box>div div span {
+        font-size: 12px;
+        font-family: "Nunito", serif;
+        color: #F0E5FF;
+        font-weight: 600;
+    }
+
+    .viewmore-container1-left .view-small-box3 h3 {
+        font-size: 11px;
+        color: #b4abc8;
+        font-family: "Nunito", serif;
+        text-align: center;
+    }
+
+    /*  */
+    .ticket-details-box .span {
+        border: 1px solid #4742768e;
+        margin-top: 0em;
+        margin-bottom: 0em;
+    }
+
+    .number-first-box div span {
+        font-size: 18px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+    .number-first-box div p {
+        font-size: 8px;
+        font-family: "Nunito", serif;
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+
+    .ticket-details-box>div .border-use-class::after {
+        content: "";
+        top: 0;
+        right: -53%;
+        position: absolute;
+        border-right: 1px solid #4742768e;
+        width: 4px;
+        height: 50px;
+    }
+
+    .ticket-details-box>div .border-use-class1::after {
+        content: "";
+        top: 0;
+        right: -7%;
+        position: absolute;
+        border-right: 1px solid #4742768e;
+        width: 4px;
+        height: 58px;
+    }
+
+    /*  */
+    .prize-list-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .prizepool-containner {
+        width: 100%;
+        height: auto;
+        background: transparent linear-gradient(270deg, #9F62F221 0%, #9F62F221 28%, #5FEDFF00 100%);
+        border: 1px solid #474276;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*  */
+    .viewmore-container1-right {
+        width: 100%;
+        height: auto;
+        background: #0E0A31;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 7px;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .viewmore-container1-right h3 {
+        font-size: 14px;
+        font-family: "Nunito", serif;
+        color: #F0E5FF;
+        font-weight: normal;
+        padding: 0;
+    }
+
+    .prizepool-containner .top-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0;
+        border-bottom: 1px solid #474276;
+        text-align: center;
+    }
+
+    .prize-list-container .boxses1 {
+        display: flex;
+        padding: 1em 0em;
+    }
+
+    .prizepool-containner .top-box span {
+        font-size: 12px;
+        color: #b4abc8;
+        font-family: "Nunito", serif;
+        width: 20%;
+    }
+
+    .prizepool-containner .top-box p {
+        width: 20%;
+        font-size: 12px;
+        font-family: "Nunito", serif;
+        color: #b4abc8;
+        margin-right: 1em;
+    }
+
+    .prize-list-container .boxses1 div span {
+        text-align: center;
+        font-size: 12px;
+        font-family: "Nunito", serif;
+        color: #b4abc8;
+    }
+
+    .prize-list-container .boxses1 div p {
+        text-align: center;
+        font-size: 12px;
+        font-family: "Nunito", serif;
+        color: #b4abc8;
+    }
+
+
+    /* center container  */
+    .buy-ticket-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        flex-wrap: wrap;
+        position: relative;
+        gap: 1em;
+    }
+
+    .buy-ticket-container .ticket-box {
+        position: relative;
+        width: 100%;
+        height: 145px;
+        background: #0E0A31;
+        padding: 1.2em;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .buy-ticket-container .ticket-box .first-box1 h3 {
+        font-size: 14px;
+    }
+
+    .buy-ticket-container .ticket-box .first-box1 span {
+        font-size: 11px;
+        font-weight: 600;
+        width: 26px;
+        height: 26px;
+    }
+
+    .buy-ticket-container .ticket-box .first-box2 {
+        width: 99%;
+        height: 72px;
+        padding: 0 1em;
+    }
+
+    .buy-ticket-container .ticket-box .first-box2 fieldset {
+        width: 46%;
+        height: 52px;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #F0E5FF;
+        border-radius: 4px;
+        align-items: center;
+        padding: 0 1em;
+    }
+
+    .buy-ticket-container .ticket-box .first-box2 button {
+        width: 135px;
+        margin-top: 0.7em;
+        height: 42px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+    .buy-ticket-container .lottery-draw-box {
+        position: relative;
+        width: 100%;
+        height: 155px;
+        background: #0E0A31;
+        padding: 1.2em;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .buy-ticket-container .lottery-draw-box h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox {
+        width: 100%;
+        height: 122px;
+        background: transparent linear-gradient(270deg, #9F62F221 0%, #9F62F221 28%, #5FEDFF00 100%) 0% 0% no-repeat padding-box;
+        border: 1px solid #474276;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        padding: 6px;
+        gap: 12px;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-box span {
+        width: 15%;
+        font-size: 12px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-box p {
+        width: 40%;
+        font-size: 14px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-listbox span {
+        width: 15%;
+        font-size: 14px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-listbox button {
+        width: 63px;
+        height: 21px;
+        border: 1px solid #29BCFA;
+        background-color: transparent;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-listbox p {
+        width: 40%;
+        font-size: 12px;
+    }
+
+
+
+    .last-container-of-viewmore .connect-wallet-bottom-box {
+        width: 100%;
+        height: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .connect-wallet-bottom-box .active_div {
+        width: 260px;
+        height: 260px;
+        background: transparent linear-gradient(270deg, #9F62F221 0%, #9F62F221 28%, #5FEDFF00 100%) 0% 0% no-repeat padding-box;
+        border: 1px solid #474276;
+        border-radius: 3px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .connect-wallet-bottom-box button {
+        width: 310px;
+    }
+
+    .buy-ticket-container .ticket-box .first-box2 fieldset legend {
+        color: #b4abc8;
+        font-size: 14px;
+        font-family: "Nunito", serif;
+        padding: 0 5px;
+    }
+
+    .last-container-of-viewmore {
+        height: auto;
+    }
+}
+
+/* max-width 320px  */
+@media only screen and (max-width:360px) {
+    .viewmore-container1-left .view-small-box2 .vw-sm-box {
+        gap: 0.3em;
+        width: 145px;
+    }
+
+    .viewmore-container1-left .view-small-box2>div {
+        width: 100px;
+        height: 115px;
+        overflow: hidden;
+    }
+
+    .viewmore-container1-left .view-small-box2 .vw-sm-box div h4 {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .number-first-box div {
+        width: 28px;
+        height: 36px;
+    }
+
+    .ticket-details-box>div div p {
+        font-size: 10px;
+    }
+
+    .ticket-details-box>div .border-use-class1::after {
+        content: "";
+        top: 0;
+        right: -25%;
+        height: 51px;
+    }
+
+    .ticket-details-box>div .border-use-class::after {
+        content: "";
+        top: 0;
+        right: -78%;
+        position: absolute;
+        border-right: 1px solid #4742768e;
+        width: 4px;
+        height: 50px;
+    }
+
+    .number-first-box div span {
+        font-size: 15px;
+        font-family: "Nunito", serif;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+    .ticket-details-box>div {
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .buy-ticket-container .ticket-box .first-box2 button {
+        width: 106px;
+        margin-top: 0.7em;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    .lottery-draw-box .draw-ticket-listbox .top-heading-listbox button {
+        width: 59px;
+        height: 21px;
+        border: 1px solid #29BCFA;
+        background-color: transparent;
+        border-radius: 11px;
+        text-align: center;
+        font-size: 9px;
+        margin-left: 12px;
+    }
+
+    .connect-wallet-bottom-box button {
+        width: 300px;
+        height: 53px;
+    }
+
+
+}
+
+
+/* Tablet view css */
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .viewmore-container1 {
+        gap: 1em;
+    }
+
+    .viewmore-container1-left {
+        width: 100%;
+        height: 653px;
+        gap: 1em;
+    }
+
+    .viewmore-container1-right {
+        width: 100%;
+        height: 653px;
+    }
+
+    .buy-ticket-container .ticket-box {
+        position: relative;
+        width: 100%;
+        height: 239px;
+    }
+
+    .buy-ticket-container .lottery-draw-box {
+        position: relative;
+        width: 100%;
+        height: 230px;
+    }
+
+    .last-container-of-viewmore .connect-wallet-bottom-box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        float: left;
+        justify-content: space-around;
+        padding: 0 3em;
+    }
+
+    .last-container-of-viewmore{
+        width: 97%;
+        margin: 0 auto;
+        height: auto;
+        margin-bottom: 1em;
+        background: #0E0A31 0% 0% no-repeat padding-box;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 3.5em;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1266px) {
+    .last-container-of-viewmore .connect-wallet-bottom-box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        float: left;
+        gap: 2em;
+        justify-content: space-around;
+        padding: 0 2em;
+    }
+}
+
+/* extra large screen */
+
+@media only screen and (min-width: 1320px) {
+    .viewmore-container1 {
+        width: 1320px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .buy-ticket-container {
+        width: 1320px;
+        height: auto;
+        margin: auto;
+    }
+
+    .last-container-of-viewmore {
+        width: 1295px;
+        margin: auto;
+    }
+
+    .last-container-of-viewmore .connect-wallet-bottom-box {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        float: left;
+        gap: 2.8em;
+        justify-content: center;
+        padding: 0 2em;
+    }
+}

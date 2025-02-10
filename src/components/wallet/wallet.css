@@ -1,0 +1,95 @@
+.wallet-adapter-button-trigger {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  background: transparent linear-gradient(90deg, #29BCFA 0%, #6464E4 48%, #B45AFA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  width: 181px;
+  height: 39px;
+  border: 1px solid;
+  color: #ffff;
+  font-weight: 600;
+  font-weight: "Nunito", serif;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+}
+
+.wallet-adapter-button-start-icon {
+  display: none !important;
+}
+
+
+ @media only screen and (max-width:766px) {
+  .wallet-adapter-button-trigger {
+    width: auto !important ;
+    height: 42px !important ;
+    font-size: 14px !important ;
+    padding: 0 !important ;
+    padding-left:0em !important ;
+    background: transparent !important;
+    justify-content: flex-start !important ;
+  }
+  .connect-button{
+    width: 182px !important ;
+    height: 42px !important;
+    background: transparent linear-gradient(90deg, #29BCFA 0%, #6464E4 48%, #B45AFA 100%) !important;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 6px;
+  }
+  .closenav{
+    background-color: transparent !important;
+    display: block;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width:360px){
+  .wallet-adapter-button-trigger {
+    width: 120px !important ;
+    height: 42px !important ;
+    font-size: 12px !important ;
+    padding: 0 !important ;
+    padding-left:0.4em !important ;
+    background: transparent !important;
+    justify-content: flex-start !important ;
+  }
+  .connect-button{
+    width: 150px !important ;
+    height: 42px !important;
+    background: transparent linear-gradient(90deg, #29BCFA 0%, #6464E4 48%, #B45AFA 100%) !important;
+    display: flex;
+    gap: 0em !important;
+  }
+} 
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+  .wallet-adapter-button-trigger {
+    width: auto !important ;
+    height: 42px !important ;
+    font-size: 14px !important ;
+    padding: 0 !important ;
+    padding-left:1em !important ;
+    background: transparent !important;
+    justify-content: flex-start !important ;
+  }
+  .connect-button{
+    width: 182px !important ;
+    height: 42px !important;
+    background: transparent linear-gradient(90deg, #29BCFA 0%, #6464E4 48%, #B45AFA 100%) !important;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    border-radius: 6px;
+  }
+  .closenav{
+    background-color: transparent !important;
+    display: block;
+    cursor: pointer;
+  }
+}

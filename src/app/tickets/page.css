@@ -1,0 +1,117 @@
+.ticket-container {
+    width: 97%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.ticket-bottom-container {
+    width: 99.2%;
+    margin-top: 0.6em;
+    height: auto;
+    border-radius: 6px;
+    background: #0E0A31;
+}
+
+.nft-buy-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.ticket-view-more-container{
+    padding: 0 2em ;
+    padding-top: 0.9em;
+}
+.nft-buy-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1.8em;
+}
+
+.nft-buy-box .image-container {
+    border: 1px solid #51109B;
+    width: 188px;
+    height: 188px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.nft-buy-box .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.nft-buy-box .reveal,.nft-buy-box22 .reveal  {
+    width: 188px;
+    height: 37px;
+    border: none;
+    outline: none;
+    background: transparent linear-gradient(90deg, #9334FF 0%, #6464E4 48%, #B45AFA 100%) ;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: "Nunito",serif;
+    color: #0C032C;
+    cursor: pointer;
+}
+
+
+
+/* active class for use claim btn */
+.nft-buy-box .claim,.nft-buy-box22 .claim {
+    width: 188px;
+    height: 37px;
+    border: none;
+    outline: none;
+    background: #2B1248;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: "Nunito",serif;
+    color: #E1D2F2;
+    cursor: pointer;
+    margin-bottom: 1.2em;
+}
+
+
+
+.nft-buy-box .overlay-onimage,.nft-buy-box22 .overlay-onimage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #461b879f;
+    z-index: 2;
+    font-size: 37px;
+    font-family: "Nunito",serif;
+    font-weight: 600;
+    color: #F5D4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* active class for use in overlay in teasure box */
+.nft-buy-box .overlay-active{
+    display: flex;
+}
+
+/* display none property */
+.nft-buy-heading{
+    display: none;
+}
+
+.nft-buy-container22{
+    display: none;
+}

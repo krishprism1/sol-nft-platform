@@ -1,0 +1,123 @@
+@media only screen and (max-width:766px){
+    .prize-main-container h3 {
+        color: #F0E5FF;
+        font-size: 22px;
+        text-align: center;
+        font-family: "Nunito", serif;
+        font-weight: 600;
+    }
+    .prize-main-container .prizelist-box>table{
+        width: 104%;
+    }
+    .prize-main-container .prizelist-box {
+        width: 100%;
+        height: 100%;
+        margin-top: 2em;
+        padding: 0 2em;
+    }
+    .prize-main-container .prizelist-box>table thead tr td:nth-child(2){
+        margin-left: -2em;
+    }
+    .prize-main-container .prizelist-box>table thead tr td {
+        color: #F0E5FF;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Nunito", serif;
+    }
+    .table-list table tr{
+        align-items: center;
+    }
+    .table-list table tr td {
+        width: auto;
+        padding: 1.1em 0;
+        color: #F0E5FF;
+        font-size: 16px;
+        font-family: "Nunito", serif;
+        position: relative;
+    }
+    
+    .table-list table tr td:nth-child(2){
+        width: 10%;
+        margin-left: -3em;
+        font-size: 14px;
+    }
+    .table-list table tr td:nth-child(3){
+       font-size: 12px;
+    }
+    .table-list {
+        width: 104%;
+        height: 60vh;
+        overflow-y: hidden;
+    }
+    .prize-main-container .prizelist-box{
+        height: 75%;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .table-list table tr td {
+        width: auto;
+        padding: 0.8em 0;
+        color: #F0E5FF;
+        font-size: 10px;
+        font-family: "Nunito", serif;
+        position: relative;
+    }
+    .prize-main-container .prizelist-box {
+        padding: 0 1.2em;
+    }
+    .prize-main-container .prizelist-box>table thead tr td:nth-child(2){
+        margin-left: -0.7em;
+    }
+    .table-list table tr td:nth-child(2){
+        width: 10%;
+        margin-left: -1.2em;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .prize-main-container .prizelist-box {
+        width: 95%;
+        height: 77%;
+        margin-top: 2em;
+        padding: 0 2em;
+    }
+    .table-list table tr td:nth-child(2){
+        width: 10%;
+        margin-left: -7em;
+    }
+    .prize-main-container .prizelist-box>table thead tr td:nth-child(2){
+        margin-left: -7em;
+    }
+    .table-list {
+        width: 104%;
+        height: 60vh;
+        overflow-y: hidden;
+    }
+}
+@media only screen and(min-width: 1023px) and  (min-width: 1024px){
+    .table-list {
+        width: 104%;
+        height: 80vh;
+        overflow-y: hidden;
+    }
+}
+
+@media only screen and (min-width: 1320px){
+    .prize-main-container {
+        width: 1320px;
+        height: 86%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    .table-list {
+        width: 104%;
+        height: 60vh;
+        overflow-y: hidden;
+    }
+}

@@ -1,0 +1,24 @@
+.create-maincontainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(/original-coming-soon-fit.png);
+    background-position: bottom;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+
+@media only screen and (max-width:766px){
+    .create-maincontainer{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-image: url(/comming-soon-mobile.png);
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+  
+}
