@@ -14,7 +14,5 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-https://solana-nft-platform-gray.vercel.app/
+https://app.mrgain.io/
 
