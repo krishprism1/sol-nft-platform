@@ -14,5 +14,8 @@ pnpm dev
 bun dev
 ```
 
-https://app.mrgain.io/
 
+ticket number 6514
+Whitelist url: https://app.mrgain.io/
+
+Domain: app.mrgain.io
