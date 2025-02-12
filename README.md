@@ -15,7 +15,8 @@ bun dev
 ```
 
 
-ticket number 6514
+Ticket number: 6514
+
 Whitelist url: https://app.mrgain.io/
 
 Domain: app.mrgain.io
